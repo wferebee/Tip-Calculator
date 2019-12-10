@@ -1,0 +1,101 @@
+.col-sm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 30vh;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.slidecontainer {
+    width: 100%;
+  }
+  
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+  
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+div.card {
+  border-width: 5px;
+  border-style: solid;
+  border-color: greenyellow;
+}
+
+#tipAmountCardBody {
+  padding: 2.5rem;
+}
+
+.jumbotron {
+background-image: url("https://www.investopedia.com/thmb/8l7poPJeuGd-W84RgaDhVg0XYYk=/2391x1253/filters:fill(auto,1)/close-up-of-us-paper-currency-769808095-2dc482029d594ab587ff713a94678d01.jpg");
+background-size: cover;
+margin-bottom: 0px !important;
+border-width: 15px;
+border-style: solid;
+border-color: rgb(0, 0, 0);
+border-bottom-width: 0px;
+}
+
+p.lead {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+}
+
+h1.display-4 {
+  font-size: 70px;
+}
+
+body {
+  border-width: 15px;
+  border-style: solid;
+  border-color: greenyellow;
+  background-color:#4CAF50;
+  margin-bottom: 0; 
+}
+
+div.container-fluid{
+  border-top-width: 15px;
+  border-top-color: rgb(0, 0, 0);
+  border-top-style: solid;
+}
+
+
+
+
+
+
+
+  
